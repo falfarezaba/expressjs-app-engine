@@ -1,6 +1,7 @@
 runtime: nodejs20
 env: standard
 instance_class: F1
+service: km5-staging
 automatic_scaling:
   min_idle_instances: 1
   max_idle_instances: automatic
